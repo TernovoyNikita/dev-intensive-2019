@@ -1,6 +1,5 @@
 package ru.skillbranch.devintensive.models
 
-import android.media.Image
 import java.util.*
 
 abstract class BaseMessage(

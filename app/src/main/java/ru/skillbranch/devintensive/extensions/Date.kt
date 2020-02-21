@@ -25,6 +25,7 @@ fun Date.add(value: Int, units: TimeUnits = TimeUnits.SECOND) : Date {
     this.time = time
     return this
 }
+
 val Int.sec get() = this * TimeUnits.SECOND.size
 val Int.min get() = this * TimeUnits.MINUTE.size
 val Int.hour get() = this * TimeUnits.HOUR.size
